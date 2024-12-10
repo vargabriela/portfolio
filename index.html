@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfólio</title>
+<style>
+/* fontes, margin e padding*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4fc; /* Lilás claro para o fundo */
+}
+/* propriedades do título da página */
+body h1 {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #6a1b9a; /* Lilás escuro */
+    color: #fff; /* Texto branco */
+    text-align: center;
+}
+/* propriedades do menu de navegação */
+nav {
+    background-color: #7b1fa2; /* Lilás médio */
+    text-align: center;
+    padding: 1rem;
+}
+/* propriedades dos links do menu de navegação */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #f3e5f5; /* Lilás claro ao passar o mouse */
+}
+/* Define as propriedades da seção "Sobre mim" */
+#aboutme {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2); /* Sombra lilás */
+}
+/* propriedades da imagem da seção "Sobre mim" */
+#aboutme img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #7b1fa2; /* Borda lilás */
+}
+/* Define as propriedades da seção "Experiência" */
+#experience {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2); /* Sombra lilás */
+}
+/* propriedades dos subtítulos da seção "Experiência" */
+#experience h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #6a1b9a; /* Lilás escuro */
+}
+/* propriedades da seção "Trabalhos" */
+#works {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2); /* Sombra lilás */
+}
+/* propriedades do link da seção "Trabalhos" */
+#works a {
+    display: block;
+    margin-bottom: 1rem;
+    color: #7b1fa2; /* Lilás médio */
+    text-decoration: none;
+    font-weight: bold;
+}
+#works a:hover {
+    color: #6a1b9a; /* Lilás escuro ao passar o mouse */
+}
+/* Define as propriedades da seção "Contato" */
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.2); /* Sombra lilás */
+}
+/* Define as propriedades do formulário de contato */
+#contact form table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/* propriedades das células do formulário de contato */
+#contact form table th,
+#contact form table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+/* propriedades dos rótulos das células do formulário de contato */
+#contact form table th {
+    text-align: left;
+    color: #6a1b9a; /* Lilás escuro */
+}
+/* propriedades do botão de envio do formulário de contato */
+button {
+    background-color: #6a1b9a; /* Lilás escuro */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #7b1fa2; /* Lilás médio ao passar o mouse */
+}
+</style>
+</head>
+<body>
+<!-- título principal -->
+<h1>Portfólio</h1>
+<!-- menu de navegação da página -->
+<nav>
+    <ul style="list-style-type: none; padding: 0;">
+        <li style="display: inline;"><a href="#aboutme">Sobre Mim</a></li>
+        <li style="display: inline;"><a href="#experience">Experiência</a></li>
+        <li style="display: inline;"><a href="#works">Trabalhos</a></li>
+        <li style="display: inline;"><a href="#contact">Contato</a></li>
+    </ul>
+</nav>
+<!-- seção com informações sobre mim -->
+<div id="aboutme">
+    <h2>Sobre Mim</h2>
+    <img src="https://github.com/vargabriela/Imagens/blob/main/IMG-20231017-WA0009.jpg?raw=true" width="200" height="200">
+    <p>Apaixonada por ciência e tecnologia, sou formada em Gestão em Cibersegurança pela Uninter. Nasci no subúrbio de Salvador, defendo o acesso justo a educação de qualidade, como forma de reduzir disparidades econômicas.
+    <br><br>Sempre animada para aprender e contribuir. O meu objetivo é ser uma força ágil e colaborativa, tanto no mundo corporativo quanto na sociedade.</p>
+</div>
+<!--  experiência -->
+<div id="experience">
+    <h2>Experiência</h2>
+    <h3>Customer Advisory Intern, SAS</h3>
+    <p>Gestão do processo de BID, desenvolvimento e controle de métricas da área utilizando ferramenta de Analytics, bem como na gestão da base de conhecimento e lições aprendidas.</p>
+    <h3>CSG Professional Services Intern, Salesforce</h3>
+    <p>Naveguei pelo ecossistema Salesforce, obtendo certificações essenciais como Salesforce Certified Administrator, Certified Associate, Omnistudio Consultant e Omnistudio Developer. Participei do treinamento intensivo ADX201 e acompanhei diversos projetos para clientes importantes da América Latina nas áreas de Financial Services Cloud e Salesforce Industries, adquirindo valiosa experiência prática. O estágio foi mais do que apenas aprender; foi sobre contribuir ativamente para a equipe e fomentar a colaboração.</p>
+</div>
+<!--  links para os meus trabalhos -->
+<div id="works">
+    <h2>Trabalhos</h2>
+    <a href="https://mulheresnaciencia-mc.blogspot.com/" target="_blank">Mulheres na Ciência</a>
+</div>
+<!-- formulário de contato -->
+<div id="contact">
+    <h2>Contato</h2>
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for="name">Nome:</label></th>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite sua Mensagem:</label></th>
+                <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button>Enviar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
